@@ -1,0 +1,1 @@
+Very simple interface using vanilla JavaScript
