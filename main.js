@@ -14,5 +14,7 @@ function addItem(e){
 
     li.appendChild(document.createTextNode(newItem));
 
+    var deleteBtn = document.createElement('button');
+
     itemList.appendChild(li);
 }
