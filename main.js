@@ -16,5 +16,8 @@ function addItem(e){
 
     var deleteBtn = document.createElement('button');
 
+    deleteBtn.className = 'btn btn-danger btn-sm float-right delete';
+    
+
     itemList.appendChild(li);
 }
