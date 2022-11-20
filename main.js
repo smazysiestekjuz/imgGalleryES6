@@ -7,4 +7,6 @@ function addItem(e){
     e.preventDefault();
 
     var newItem = document.getElementById('item');
+
+    var li = document.createElement('li');
 }
