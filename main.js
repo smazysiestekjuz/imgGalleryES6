@@ -5,6 +5,7 @@ var filer = document.getElementById('filter');
 form.addEventListener('submit', addItem);
 
 itemList.addEventListener('click', removeItem);
+filer.addEventListener('keyup', filerItems);
 
 function addItem(e){
     e.preventDefault();
@@ -35,4 +36,8 @@ function removeItem(e) {
         itemList.removeChild(li);
     }
    } 
+}
+
+function filerItems() {
+    
 }
