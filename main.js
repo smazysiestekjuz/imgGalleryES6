@@ -9,4 +9,6 @@ function addItem(e){
     var newItem = document.getElementById('item');
 
     var li = document.createElement('li');
+    
+    li.className = 'list-group-item';
 }
