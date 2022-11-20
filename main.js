@@ -26,3 +26,12 @@ function addItem(e){
 
     itemList.appendChild(li);
 }
+
+function removeItem(e) {
+   if(e.target.classList.contains('delete')) {
+    if(confirm('Are You Sure?')){
+        var li = e.target.parentElement;
+        itemList.removeChild(li);
+    }
+   } 
+}
