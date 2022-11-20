@@ -11,4 +11,6 @@ function addItem(e){
     var li = document.createElement('li');
     
     li.className = 'list-group-item';
+
+    li.appendChild(document.createTextNode(newItem));
 }
