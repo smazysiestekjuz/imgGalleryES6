@@ -38,6 +38,6 @@ function removeItem(e) {
    } 
 }
 
-function filerItems() {
-    
+function filerItems(e) {
+    var text = e.target.value.toLowerCase();
 }
