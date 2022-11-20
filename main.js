@@ -20,6 +20,7 @@ function addItem(e){
 
     deleteBtn.appendChild(document.createTextNode('X'));
 
+    li.appendChild(deleteBtn);
 
     itemList.appendChild(li);
 }
