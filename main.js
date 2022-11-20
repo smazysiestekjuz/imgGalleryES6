@@ -40,4 +40,5 @@ function removeItem(e) {
 
 function filerItems(e) {
     var text = e.target.value.toLowerCase();
+    var items = itemList.getElementsByTagName('li');
 }
